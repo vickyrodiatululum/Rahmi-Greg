@@ -1,0 +1,62 @@
+/**
+* Project : simply-countdown
+* File : simplyCountdown.theme.custom
+* Author : Your Name <YourMail@example.com>
+*/
+
+.simply-countdown {
+  /* The countdown */
+}
+.simply-countdown > .simply-section {
+  /* coutndown blocks */
+}
+
+.simply-countdown > .simply-section > div {
+  /* countdown block inner div */
+}
+
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
+  font-family: "Monserrat", sans-serif;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+  font-size: 2rem;
+}
+
+.simply-countdown > .simply-section .simply-word {
+  /* words */
+}
+/* media query */
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 50px;
+    margin: 15px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 40px;
+    margin: 10px;
+  }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+  html {
+    font-size: 55%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 30px;
+    margin: 5px;
+  }
+}
