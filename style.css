@@ -60,6 +60,9 @@ a {
   height: 100%;
   justify-content: center;
 }
+.hadits, .info {
+  overflow: hidden;
+}
 .hadits .couple img {
   width: 300px;
   height: auto;
